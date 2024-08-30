@@ -1,6 +1,14 @@
-import Navbar from "./Components/Navbar";
+import React from 'react'
+import Navbar from './Components/Navbar'
+import CartContainer from './Components/CartContainer'
 
 function App() {
-  return <Navbar/>;
+  return (
+    <div>
+      <Navbar/>
+      <CartContainer/>
+    </div>
+  )
 }
-export default App;
+
+export default App
