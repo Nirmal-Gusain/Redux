@@ -9,9 +9,9 @@ const initialState = {
 
 const cartSlice = createSlice({
     name: "cart",
-    initialState
+    initialState,
+    
 })
 
-console.log(cartSlice)
 
 export default cartSlice.reducer;
